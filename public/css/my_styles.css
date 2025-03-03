@@ -1,0 +1,17 @@
+  .fancy_button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+  .fancy_button:hover {
+    background-color: darkblue;
+    box-shadow: 10px 9px 20px 0px rgba(0,47,212,0.75);
+    webkit-box-shadow: 10px 9px 20px 0px rgba(0,47,212,0.75);
+    moz-box-shadow: 10px 9px 20px 0px rgba(0,47,212,0.75);
+    }
+
+  .fancy_button:active {
+    background-color: blueviolet;
+  }
