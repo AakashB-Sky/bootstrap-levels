@@ -11,6 +11,10 @@ class LevelsController < ApplicationController
     render({ :template => "levels/01_other_buttons" })
   end
 
+  def other_buttons_alt
+    render({ template: "levels/01a_other_buttons" })
+  end
+
   def utility_classes
     render({ :template => "levels/02_utility_classes" })
   end
